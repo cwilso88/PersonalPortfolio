@@ -1,0 +1,130 @@
+.portfolio-img img {
+    position: absolute;
+   max-width: 100%;
+   height: auto;
+   transform: translate(5%, -85%);
+}
+
+
+
+.first-project img, .third-project img, .fifth-project img{
+   max-width: 100%;
+   height: auto;
+   position: absolute;
+
+}
+
+.second-project img, .fourth-project img, .sixth-project img {
+   max-width: 100%;
+   height: auto;
+}
+
+@media screen and (max-width: 776px) {
+   #portfolio {
+       margin-top: 50% !important;
+   }
+
+   .portfolio-img img {
+       display: none;
+   }
+
+}	
+
+
+#portfolio img {
+   opacity: 0.5;
+}
+
+
+figure img:hover {
+   box-shadow: 10px 10px 38px rgba(0, 0, 0, 0.8), 10px 10px 12px rgba(0, 0, 0, 0.8);
+}
+
+figure:hover {
+   transition: all .4s ease;
+   opacity: 0.3;
+}
+
+.first-project figcaption, .second-project figcaption, .third-project figcaption, .fourth-project figcaption, .fifth-project figcaption, .sixth-project figcaption {
+font-family: 'Medula One', cursive;
+font-size: 5em;
+position: relative;
+letter-spacing: 7px;
+font-weight: 900;
+color: white;
+}
+
+.first-project figcaption, .third-project figcaption, .fifth-project figcaption {
+   transform: translate(20%, 100%);
+}
+
+.second-project figcaption, .fourth-project figcaption, .sixth-project figcaption {
+   transform: translate(20%, -50%);
+}
+.first-project em,  .third-project em,  .fifth-project em, .second-project em , .fourth-project em , .sixth-project em {
+   width: 270px;
+   height: 60px;
+   background-color: rgba(217, 217, 217, 0.3);
+   position: absolute;
+   top: 50px;
+   right: 140px;
+   text-align: center;
+   padding-top: 15px;
+}
+
+.second-project em, .fourth-project em, .sixth-project em {
+   width: 340px;
+   height: 70px;
+   -ms-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+   transform: rotate(90deg);
+   left: 90px;
+}
+
+@media screen and (max-width: 991px) {
+   #portfolio em {
+       display: none;
+   }
+}
+
+#portfolio img:hover {
+   opacity: 0,3;
+   transform: scale();
+}
+.about-content {
+   transform: translate(-5%, -50%);
+}
+
+
+.header-three h2 {
+position: absolute;
+font-size: 150px;
+line-height: 140px;
+letter-spacing: 5px;
+transform: translate(30%, -90%);
+z-index: 2;
+}
+
+.first-project {
+   transform: translate(40%, -5%) !important;
+}
+
+.second-project {
+   transform: translate(80%, 10%) !important;
+}
+
+.third-project {
+   transform: translate(-10%, 120%) !important;
+}
+
+.fourth-project {
+   transform: translate(15%, -10%) !important;
+}
+
+.fifth-project {
+   transform: translate(-100%, 90%) !important;
+}
+
+.sixth-project {
+   transform: translate(170%, 20%) !important;
+}

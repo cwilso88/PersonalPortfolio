@@ -1,0 +1,240 @@
+@import "cssreset.css";
+@import url('https://fonts.googleapis.com/css?family=Abel|Medula+One');
+@import "showcase-section.css";
+@import "about-section.css";
+@import "portfolio-section.css";
+@import "contact-section.css";
+@import "footer.css";
+
+/* turquoise	#40E0D0	rgb(64,224,208) */
+/* color: #FACC43 */
+
+body {
+    color: #FFFFFF;
+    background-color: #1A1A1A;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga" on;
+
+}
+
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Medula One', cursive;
+	line-height: 1.6;
+}
+
+
+
+p {
+	font-family: 'Abel', sans-serif;
+	line-height: 1.6;
+	font-size: 30px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+/* Mobile-Device Media Queries */
+
+@media screen and (max-width: 507px) {
+    /* #about .wrap-services {
+         display: none;
+     } */
+ 
+     .second-header h2, .header-three h2, .contact-img h2 {
+         line-height: 1.5em;
+         font-size: 5em;
+     }
+ 
+     .header-three h2 {
+         display: none;
+     }
+ 
+     .portfolio-img h2 {
+         position: absolute;
+         transform: translate(10%, -289%)!important;
+     }
+ 
+     .first-project {
+         position: relative;
+         transform: translate(5%, 100%)!important;
+     }
+ 
+     .first-project figcaption {
+         position: absolute;
+         transform: translate(30%, 120%);
+     }
+ 
+     .second-project {
+         position: relative;
+         transform: translate(1%, 170%)!important;
+     }
+ 
+     .second-project figcaption {
+         position: absolute;
+         transform: translate(40%, -50%)!important;
+     }
+ 
+     .third-project {
+         position: relative;
+         transform: translate(5%, 6900%)!important;
+     }
+ 
+     .third-project figcaption {
+         position: absolute;
+         transform: translate(30%, 115%);
+     }
+ 
+     .fourth-project {
+         position: relative;
+         transform: translate(1%, 430%)!important;
+     }
+ 
+     .fourth-project figcaption {
+         position: absolute;
+         transform: translate(70%, -50%);
+     }
+ 
+     .fifth-project {
+         position: relative;
+         transform: translate(2%, 13250%)!important;
+     }
+ 
+     .fifth-project figcaption {
+         position: absolute;
+         transform: translate(40%, 110%);
+     }
+ 
+     .sixth-project {
+         position: relative;
+         transform: translate(1%, 660%)!important;
+     }
+ 
+     .sixth-project figcaption {
+         position: absolute;
+         transform: translate(70%, -50%);
+     }
+ 
+ 
+     #contact {
+         margin-top: 340em;
+     }
+ 
+     .contact-img img {
+         display: none;
+     }
+ 
+     .contact-info {
+         transform: translateY(-170%);
+     }
+ 
+     .btn {
+         min-width: 48px;
+         min-height: 48px;
+         padding: 1.5em;
+     }
+ 
+     #contact p {
+         font-size: 2em!important;
+         transform: translateY(-90%);
+     }
+ 
+     footer {
+         transform: translateY(90%);
+     }
+ 
+     hr {
+         transform: translateX(10%);
+     }
+ 
+     .circle1 {
+         transform: translateX(-100%)!important;
+     }
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ @media screen and (min-width: 508px) and (max-width: 777px) {
+     .second-header p {
+         grid-column: 2 / span 2;
+         transform: translateX(-60%, -120%)!important;
+     }
+ 
+     .about-content p {
+         transform: translate(5%, -370%);
+     }
+ 
+     .header-three h2 {
+         transform: translate(30%, -290%);
+     }
+ 
+     .first-project {
+         transform: translate(-10%, 55%)!important;
+     }
+ 
+     .second-project img, .fourth-project img, .sixth-project img {
+         max-width: 60%;
+     }
+ 
+     .second-project {
+         transform: translate(50%, 10%)!important;
+     }
+ 
+     .third-project {
+         transform: translate(-10%, 5%)!important;
+     }
+ 
+     .fourth-project {
+         transform: translate(50%, -10%)!important;
+     }
+ 
+     .fifth-project {
+         transform: translate(-10%, -70%)!important;
+     }
+ 
+     .sixth-project {
+         transform: translate(50%, -40%)!important;
+     }
+ 
+     .contact-img {
+         transform: translateY(-220%)!important;
+     }
+ 
+     .contact-info {
+     transform: translateY(30%);
+     }
+ 
+     #contact p {
+         margin-top: 170%!important;
+     }
+ 
+     footer {
+         margin-top: 130%;
+     }
+ 
+     footer h3 {
+         margin-left: 18%;
+         margin-top: 5%;
+     }
+ 
+     footer img {
+     transform: translate(75%, -10%) !important;
+     }
+ 
+     footer p {
+         transform: translate(-25%, 90%)!important;
+     }
+ 
