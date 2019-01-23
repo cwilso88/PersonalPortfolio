@@ -43,6 +43,10 @@ ul {
   -moz-columns: 2;
 }
 
+.container {
+    width: 1200px;
+}
+
 /* Mobile-Device Media Queries */
 
 @media screen and (max-width: 507px) {
